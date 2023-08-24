@@ -7,7 +7,6 @@ const Cards = (props) => {
   let courses = props.courses;
   let category = props.category;
   const [likedCourses, setLikedCourses] = useState([]);
-  const [displayLikedCourses, setDisplayLikedCourses] = useState([]);
 
   useEffect(() => {
     console.log("hello");
